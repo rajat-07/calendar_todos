@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
 const routes = require('./routes/api');
 
 // user - rajat, password - Unergia1234
-const MONGODB_URI = 'mongodb+srv://rajat:Unergia1234@eventsdb.wkbbw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+// const MONGODB_URI = 'mongodb+srv://rajat:Unergia1234@eventsdb.wkbbw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 
 // mongoose.connect(MONGODB_URI || 'mongodb://localhost/db', {
@@ -19,7 +19,7 @@ const MONGODB_URI = 'mongodb+srv://rajat:Unergia1234@eventsdb.wkbbw.mongodb.net/
 
 //// deployment stuff ////
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/db', {
+mongoose.connect(process.env.MONGODB_URI , {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
