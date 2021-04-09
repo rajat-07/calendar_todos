@@ -1,0 +1,77 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@syncfusion/ej2": "^19.1.54",
+    "@syncfusion/ej2-base": "^19.1.54",
+    "@syncfusion/ej2-buttons": "^19.1.54",
+    "@syncfusion/ej2-react-barcode-generator": "^19.1.54",
+    "@syncfusion/ej2-react-base": "^19.1.54",
+    "@syncfusion/ej2-react-buttons": "^19.1.54",
+    "@syncfusion/ej2-react-calendars": "^19.1.55",
+    "@syncfusion/ej2-react-charts": "^19.1.54",
+    "@syncfusion/ej2-react-circulargauge": "^19.1.54",
+    "@syncfusion/ej2-react-diagrams": "^19.1.54",
+    "@syncfusion/ej2-react-documenteditor": "^19.1.54",
+    "@syncfusion/ej2-react-dropdowns": "^19.1.55",
+    "@syncfusion/ej2-react-filemanager": "^19.1.54",
+    "@syncfusion/ej2-react-gantt": "^19.1.54",
+    "@syncfusion/ej2-react-grids": "^19.1.54",
+    "@syncfusion/ej2-react-heatmap": "^19.1.54",
+    "@syncfusion/ej2-react-inplace-editor": "^19.1.54",
+    "@syncfusion/ej2-react-inputs": "^19.1.54",
+    "@syncfusion/ej2-react-kanban": "^19.1.54",
+    "@syncfusion/ej2-react-layouts": "^19.1.54",
+    "@syncfusion/ej2-react-lineargauge": "^19.1.54",
+    "@syncfusion/ej2-react-lists": "^19.1.54",
+    "@syncfusion/ej2-react-maps": "^19.1.54",
+    "@syncfusion/ej2-react-navigations": "^19.1.54",
+    "@syncfusion/ej2-react-notifications": "^19.1.54",
+    "@syncfusion/ej2-react-pdfviewer": "^19.1.54",
+    "@syncfusion/ej2-react-pivotview": "^19.1.54",
+    "@syncfusion/ej2-react-popups": "^19.1.54",
+    "@syncfusion/ej2-react-progressbar": "^19.1.54",
+    "@syncfusion/ej2-react-querybuilder": "^19.1.54",
+    "@syncfusion/ej2-react-richtexteditor": "^19.1.54",
+    "@syncfusion/ej2-react-schedule": "^19.1.54",
+    "@syncfusion/ej2-react-splitbuttons": "^19.1.54",
+    "@syncfusion/ej2-react-spreadsheet": "^19.1.54",
+    "@syncfusion/ej2-react-treegrid": "^19.1.54",
+    "@syncfusion/ej2-react-treemap": "^19.1.54",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {},
+  "proxy": "http://localhost:8080"
+}
