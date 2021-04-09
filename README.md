@@ -8,9 +8,9 @@ An MERN Stack Calendar Todo application which provides :
 - View and change status of tasks 
 
 Steps for running project in local :
-Step 1 : Installing global dependencies for external package.json (command - npm install)
-Step 2 : Navigate to client folder path (command - cd client)
-Step 3 : Installing dependencies for React frontend (command - npm install)
-Step 4 : Running server and client simultaneously using just one command (command - npm run dev)
+- Step 1 : Installing global dependencies for external package.json (command - npm install)
+- Step 2 : Navigate to client folder path (command - cd client)
+- Step 3 : Installing dependencies for React frontend (command - npm install)
+- Step 4 : Running server and client simultaneously using just one command (command - npm run dev)
 
 
