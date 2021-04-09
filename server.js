@@ -12,17 +12,17 @@ const routes = require('./routes/api');
 // const MONGODB_URI = 'mongodb+srv://rajat:Unergia1234@eventsdb.wkbbw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 
-// mongoose.connect(MONGODB_URI || 'mongodb://localhost/db', {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// });
-
-//// deployment stuff ////
-
-mongoose.connect(process.env.MONGODB_URI , {
+mongoose.connect(MONGODB_URI || 'mongodb://localhost/db', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
+
+//// deployment stuff ////
+
+// mongoose.connect(process.env.MONGODB_URI , {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+// });
 
 //// deployment stuff ////
 
